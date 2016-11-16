@@ -10,6 +10,6 @@ COPY . /usr/snow-leopard-tail
 
 WORKDIR /usr/snow-leopard-tail
 
-EXPOSE 80
+EXPOSE 8080
 
-CMD gunicorn --bind 0.0.0.0:80 snow_leopard_tail:app
+CMD gunicorn --bind 0.0.0.0:8080 snow_leopard_tail:app
