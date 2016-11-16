@@ -4,7 +4,7 @@ COPY requirements.txt /tmp/
 
 RUN pip install -r /tmp/requirements.txt
 
-RUN mkdir /var/www/snow-leopard-tail
+RUN mkdir /usr/snow-leopard-tail
 
 COPY . /usr/snow-leopard-tail
 
