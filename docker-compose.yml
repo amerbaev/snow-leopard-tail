@@ -1,0 +1,7 @@
+snow-leopard-tail:
+    build: .
+    container_name: snow-leopard-tail
+    hostname: snow-leopard-tail
+    restart: always
+    ports:
+        - "8080:8080"
